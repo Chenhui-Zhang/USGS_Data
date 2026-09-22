@@ -1,0 +1,25 @@
+{
+  "name": "papersprout",
+  "version": "0.3.1",
+  "description": "A Zotero-native academic card feed for focused literature exploration.",
+  "main": "src/main.js",
+  "author": "PaperSprout",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build:mac": "electron-builder --mac zip --universal"
+  },
+  "devDependencies": {
+    "electron": "^32.1.2",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.papersprout.app",
+    "productName": "PaperSprout",
+    "files": ["src/**/*", "package.json"],
+    "mac": {
+      "category": "public.app-category.education",
+      "identity": null
+    }
+  }
+}

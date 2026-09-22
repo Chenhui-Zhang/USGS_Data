@@ -1,0 +1,1 @@
+PaperSprout macOS build artifact generation.
