@@ -1,0 +1,1 @@
+Trigger macOS build after workflow activation.
